@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    .header__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .avaIcon{
+            width: 45px;
+            height: 45px; 
+        }
+        .listIcon{
+          font-size: 30px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

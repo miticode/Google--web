@@ -1,0 +1,18 @@
+.under-content2 {
+  
+  height: 41vh;
+  .concac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+    .tripu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      color: rgba(68, 0, 255, 0.658);
+    }
+  }
+}
