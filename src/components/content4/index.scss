@@ -1,12 +1,19 @@
 .mama {
   .kaka {
-    height: 4.75vh;
+    height: 2.3vh;
 
     .kuku {
       margin-left: 30px;
-      padding-top: 20px;
+      padding-bottom: 40px;
     }
   }
+
+  .divider {
+    border: none;
+    border-top: 1px solid black;
+    margin: 0; 
+  }
+
   .kiki {
     height: 4.75vh;
     display: flex;

@@ -1,8 +1,13 @@
+
 .nav{
     display: flex;
-    justify-content: space-between;
+   
+    background-color: bisque;
+    gap: 50px;
     .gIcon{
-        width: 50%;
+        
         font-size: 35px;
+        
     }
+   
 }

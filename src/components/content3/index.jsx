@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./index.scss"
 
 function Content3() {
@@ -7,9 +8,10 @@ function Content3() {
         <div className="concac">
         <div>Google có các thứ tiếng: </div>
         <div className="tripu">
-        <div>English </div>
-        <div>Français</div>
-        <div> 繁體中文</div>
+          <Link to={"/English"}>English</Link>
+          <Link to={"/Francais"}>Français</Link>
+          <Link to={"/taukhia"}>繁體中文</Link>
+        
         </div>
         </div>
         
