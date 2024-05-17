@@ -1,0 +1,14 @@
+.manhinhden{
+    background-color: rgb(32, 33, 36);
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    font-size: 100px;
+    .speak{
+        color: white;
+        font-size: 50px;
+    }
+}

@@ -5,7 +5,7 @@ function Content3() {
   return (
     
     <div className="under-content2">
-        <div className="concac">
+        <div className="conca">
         <div>Google có các thứ tiếng: </div>
         <div className="tripu">
           <Link to={"/English"}>English</Link>

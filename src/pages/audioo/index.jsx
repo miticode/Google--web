@@ -1,7 +1,12 @@
-
+import { AudioOutlined } from "@ant-design/icons"
+import { Typography } from "antd"
+import "./index.scss"
 function Audio() {
   return (
-    <div>Audio</div>
+    <div className="manhinhden">
+      <Typography className="speak">Speak Now</Typography>
+      <AudioOutlined />
+    </div>
   )
 }
 
